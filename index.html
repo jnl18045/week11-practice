@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Home</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header>
+    <h1>Driftwood Plant Co.</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="shop.html">Shop</a>
+      <a href="care-guide.html">Care Guide</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Houseplants for Every Kind of Light</h1>
+    <img src="images/plant-shelf-347.jpg" alt="plant-shelf-347.jpg">
+    <p>Driftwood Plant Co. is a small houseplant shop specializing in low-maintenance greenery for apartments, offices, and anyone who wants a little more plant life without a lot of guesswork. Every plant leaves the shop with a care card matched to its actual light and water needs.</p>
+
+    <section class="newsletter">
+      <h2>Get Weekly Plant Care Tips</h2>
+      <form>
+        <label for="email">Email Address</label>
+        <input type="email" id="signup-email" name="email" required>
+        <button type="submit">Sign Up</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Driftwood Plant Co.</p>
+  </footer>
+
+</body>
+</html>
+The shop.html, care-guide.html, and contact.html links don't lead anywhere in this practice repository. Leave them exactly as written. This Lab only needs index.html. The image itself, images/plant-shelf-347.jpg, doesn't need to exist either. You're auditing the <img> tag's alt attribute, not the image file, so a broken image icon on the page is expected and fine.
+Create a folder named css, and inside it create style.css. Paste in this starter CSS exactly as written.
+body {
+  font-family: Arial, sans-serif;
+  color: #2f3b2f;
+  background-color: #ffffff;
+  margin: 0;
+}
+
+header {
+  background-color: #e8f0e4;
+  padding: 20px;
+}
+
+header h1 {
+  color: #7ca37a;
+  margin: 0 0 12px 0;
+}
+
+nav a {
+  color: #7ca37a;
+  text-decoration: none;
+  margin-right: 16px;
+}
+
+main {
+  padding: 20px;
+}
+
+main img {
+  max-width: 100%;
+  height: auto;
+}
+
+.newsletter {
+  background-color: #f4f7f2;
+  padding: 16px;
+  margin-top: 24px;
+}
+
+.newsletter input {
+  padding: 8px;
+  margin-right: 8px;
+}
+
+footer {
+  background-color: #3d5c40;
+  color: #ffffff;
+  padding: 16px;
+  text-align: center;
+}
